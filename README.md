@@ -1,5 +1,5 @@
-# registration-form-language-school
-### created by kiril70
+# Modern School of Language
+###### created by kiril70
 
 ## Project subscribtion
 * Die Sprachschul-Webseite umfasst 3 Seiten (_Startseite, Anmeldeformular, Bestätigungsseite_)
@@ -10,5 +10,8 @@
   - Radio-Button to verify & give free "Send"-Button
   - Drop-Down-Button: Frau/Mann
  
+
+
+
 
 #### good luck
