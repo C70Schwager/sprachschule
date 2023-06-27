@@ -1,4 +1,15 @@
+header {
+
+  background-color: indigo;
+
+}
+
+
+
+
+
 body {
+
   background-color: rgb(31, 97, 97);
 }
 
@@ -8,6 +19,7 @@ body {
 
 
 input[type=text], select, textarea{
+
     width: 100%;
     padding: 12px;
     background-color: #ced4da;
@@ -19,12 +31,14 @@ input[type=text], select, textarea{
   
   /* Style the label to display next to the inputs */
   label {
+
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
   
   /* Style the submit button */
   input[type=submit] {
+
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -36,6 +50,7 @@ input[type=text], select, textarea{
   
   /* Style the container */
   .container {
+
     border-radius: 50px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -43,6 +58,7 @@ input[type=text], select, textarea{
   
   /* Floating column for labels: 25% width */
   .col-25 {
+
     float: left;
     width: 25%;
     margin-top: 6px;
@@ -50,6 +66,7 @@ input[type=text], select, textarea{
   
   /* Floating column for inputs: 75% width */
   .col-75 {
+
     float: left;
     width: 75%;
     margin-top: 6px;
@@ -71,10 +88,12 @@ input[type=text], select, textarea{
   }
 
   .horizontal-mitte {
+
     margin:1em auto;
     display: table;
 }
 .vertikal-mitte { 
+  
     display: table-cell; 
     vertical-align: middle;
 }
@@ -84,5 +103,6 @@ input[type=text], select, textarea{
 
 /* ab hier css für Startpage */
 .breadcrumb-item {
+  
   word-spacing: 10px;
 }
