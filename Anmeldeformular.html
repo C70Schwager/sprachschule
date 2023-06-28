@@ -12,30 +12,22 @@
 </head>
 
   <body>
-
-    
-    
     <!-- Fügen Sie für jedes Feld Eingaben (mit passender Beschriftung) hinzu und umschließen Sie jede Beschriftung und Eingabe mit einem <div>-Element,
     um mit CSS eine bestimmte Breite festzulegen: -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
+    <div class="row">
+      <form action="confirmation-site.html"
+        onsubmit="return validateForm();">
 
-        <div class="row">
-          <div class="col-25">
-            <label for="gender">Anrede</label>
-          </div>
-          <div class="col-75">
-            <select id="gender" name="gen">
-              <option value="choose">Bitte wählem</option>
-              <option value="female">Frau</option>
-              <option value="male">Herr</option>
-            </select>
-          </div>
+        <div class="col-25">
+          <label for="gender">Anrede</label>
+        </div>
+        <div class="col-75">
+          <select id="gender" name="gen">
+            <option value="choose">Bitte wählem</option>
+            <option value="female">Frau</option>
+            <option value="male">Herr</option>
+          </select>
         </div>
 
         <div class="form-floating mb-3 mt-3">
@@ -68,11 +60,16 @@
           <label for="comment">Comments</label>
         </div>
 
-        <div class="row">
+        <div class="form-floating">
           <input type="submit" value="Submit">
-        </div>
+        </div>  
+      </form>
+    
+    
 
+        <p id="message-1">Bitte Feld ausfüllen!</p>
 
+        <button onclick="validateForm();" title="click me">Click ME</button>
     </div>
 
 
