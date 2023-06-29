@@ -77,14 +77,14 @@ function validateName() {
 }
 
 function validateName() {
-    let value = document.getElementById("coment").value;
+    let value = document.getElementById("comment").value;
 
     if (value === "") { // 'single quote'
         // Fehlerfall
         setMessage1("Bitte Feld ausfüllen.");
         return false;
     }
-    sessionStorage.setItem("coment", value);
+    sessionStorage.setItem("comment", value);
     return true; // korrekte Eingabe
 }
 
