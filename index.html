@@ -28,6 +28,10 @@
         </div>
 
         <div class="row">
+          <form action="confirmation.html"
+            onsubmit="return validateForm();">
+
+        <div class="row">
           <div class="col-25">
             <label for="gender">Anrede</label>
           </div>
@@ -60,34 +64,34 @@
 
         <div class="row">
           <div class="col-25">
-            <label for="sname">Strasse / Nr.</label>
+            <label for="domicil">Strasse / Nr.</label>
           </div>
           <div class="col-75">
-            <input type="text" id="sname" name="street" placeholder="Ihre Strasse / Nr...">
+            <input type="text" id="domicil" name="domicil" placeholder="Ihre Strasse / Nr...">
           </div>
         </div>
 
         <div class="row">
           <div class="col-25">
-            <label for="oname">Wohnort</label>
+            <label for="city">Wohnort</label>
           </div>
           <div class="col-75">
-            <input type="text" id="oname" name="city" placeholder="Ihr Wohnort...">
+            <input type="text" id="city" name="city" placeholder="Ihr Wohnort...">
           </div>
         </div>
 
         <div class="row">
           <div class="col-25">
-            <label for="plzname">Postleitzahl</label>
+            <label for="code postal">Postleitzahl</label>
           </div>
           <div class="col-75">
-            <input type="text" id="plzname" name="code postal" placeholder="PLZ">
+            <input type="text" id="code postal" name="code postal" placeholder="PLZ">
           </div>
         </div>
 
         <div class="row">
           <div class="col-25">
-            <label for="subject">Bemerkungen</label>
+            <label for="comment">Bemerkungen</label>
           </div>
           <div class="col-75">
             <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
@@ -96,7 +100,7 @@
         </div>
 
         <div class="row">
-          <input type="submit" value="Submit">
+          <button onclick="validateForm();" title="click me">Click ME</button>
           <p id="message-1">Bitte Feld ausfüllen!</p>
 
 
