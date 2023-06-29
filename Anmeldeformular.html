@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>School of Language</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
 
 </head>
 
@@ -16,17 +16,15 @@
     um mit CSS eine bestimmte Breite festzulegen: -->
 
     <div class="row">
-      <form action="confirmation-site.html"
+      <form action="confirmation.html"
         onsubmit="return validateForm();">
 
-        <div class="col-25">
-          <label for="gender">Anrede</label>
+
         </div>
-        <div class="col-75">
-          <select id="gender" name="gen">
-            <option value="choose">Bitte wählem</option>
-            <option value="female">Frau</option>
-            <option value="male">Herr</option>
+          <input type= "select" id="gender" name="gender" class="input1">
+            <option value="choose">Choose It</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
           </select>
         </div>
 
@@ -60,7 +58,7 @@
           <label for="comment">Comments</label>
         </div>
 
-        <div class="form-floating">
+        <div class="form-floating mb-3 mt-3">
           <input type="submit" value="Submit">
         </div>  
       </form>

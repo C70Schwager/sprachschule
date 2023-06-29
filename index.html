@@ -42,19 +42,19 @@
 
         <div class="row">
           <div class="col-25">
-            <label for="fname">Vorname</label>
+            <label for="first name">Vorname</label>
           </div>
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Ihr Vorname...">
+            <input type="text" id="first name" name="first name" placeholder="Ihr Vorname...">
           </div>
         </div>
 
         <div class="row">
           <div class="col-25">
-            <label for="lname">Nachname</label>
+            <label for="name">Nachname</label>
           </div>
           <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname...">
+            <input type="text" id="name" name="name" placeholder="Ihr Nachname...">
           </div>
         </div>
 
@@ -90,12 +90,16 @@
             <label for="subject">Bemerkungen</label>
           </div>
           <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Bitte hier Text eingeben..." style="height:200px"></textarea>
+            <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+            <label for="comment">Comments</label>
           </div>
         </div>
 
         <div class="row">
           <input type="submit" value="Submit">
+          <p id="message-1">Bitte Feld ausfüllen!</p>
+
+
         </div>
 
     </div>
@@ -115,7 +119,7 @@
 
 
 
-    <script src="script.js">
+    <script src="script.js"></script>
 
 
   </body>
